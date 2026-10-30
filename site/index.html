@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; media-src 'self' blob:; connect-src 'self' blob:; worker-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101014">
+  <meta name="description" content="Your local-first series studio. Shape a story, keep its world consistent, and direct every scene.">
+  <title>CineSaga AI — Your story, in the making</title>
+  <link rel="icon" href="./icons.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./identity.css">
+  <link rel="stylesheet" href="./story.css">
+  <script type="module" src="./static-pwa.js"></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="app"><main class="main"><p>Opening CineSaga AI…</p></main></div>
+  <dialog id="editor" class="modal" aria-labelledby="modal-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript>CineSaga AI needs JavaScript to save your stories locally.</noscript>
+</body>
+</html>
