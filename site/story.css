@@ -1,0 +1,53 @@
+.story-workshop { max-width: 1020px; margin-inline: auto; min-width: 0; }
+.story-demo-note { border: 1px solid var(--gold); border-radius: 12px; background: var(--gold-soft); padding: 18px; margin-block-end: 22px; }
+.story-demo-note strong { color: var(--gold); font-size: 12px; }
+.story-demo-note p { margin-block: 9px; line-height: 1.7; }
+.story-demo-note small { overflow-wrap: anywhere; color: var(--muted); }
+.story-workshop summary { min-height: 44px; cursor: pointer; padding-block: 12px; font-weight: 650; overflow-wrap: anywhere; }
+.story-request form { display: grid; gap: 14px; padding-block-start: 12px; }
+.story-request .field { margin: 0; min-width: 0; }
+.story-request select, .story-request textarea { width: 100%; min-height: 44px; }
+.story-request p { margin: 0; }
+.story-change-list { display: grid; gap: 12px; }
+.story-change { border: 1px solid var(--border); border-radius: 10px; min-width: 0; background: var(--surface); }
+.story-change > summary { display: flex; justify-content: space-between; gap: 16px; align-items: center; padding: 13px 16px; }
+.story-change > summary > span { min-width: 0; overflow-wrap: anywhere; }
+.story-change > summary > span::before { content: '＋'; margin-inline-end: 8px; color: var(--purple); }
+.story-change[open] > summary > span::before { content: '−'; }
+.story-include { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; flex-shrink: 0; font-size: 11px; }
+.story-include input { width: 20px; height: 20px; accent-color: var(--purple); }
+.story-comparison { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); border-block-start: 1px solid var(--border); }
+.story-comparison > section { padding: 18px; min-width: 0; }
+.story-comparison > section + section { border-inline-start: 1px solid var(--border); background: var(--purple-soft); }
+.story-comparison h4 { font-size: 12px; color: var(--muted); margin-block: 0 10px; }
+.story-comparison p { line-height: 1.8; overflow-wrap: anywhere; }
+.story-comparison textarea { width: 100%; min-height: 100px; }
+.story-comparison .detail-block { margin-block-end: 14px; }
+.story-approval { padding: 18px; border: 1px solid var(--border); background: var(--surface); border-radius: 12px; margin-block: 18px 22px; }
+.story-approval .checkbox-option { min-height: 44px; align-items: center; line-height: 1.6; }
+.story-approval-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-block-start: 14px; }
+.story-approval-actions .button { min-height: 44px; }
+.story-error { color: var(--gold); padding-block: 12px; }
+.story-warnings { margin-block-start: 16px; padding: 14px; border: 1px solid var(--gold); border-radius: 10px; }
+.story-warnings li { margin-block: 12px; overflow-wrap: anywhere; }
+.story-continuity-review { margin-block: 18px; padding: 16px; border: 1px solid var(--border); border-radius: 12px; min-width: 0; overflow-wrap: anywhere; }
+.story-continuity-review h3 { margin-block-start: 0; }
+.story-continuity-review summary { min-height: 44px; min-width: 44px; padding-block: 12px; cursor: pointer; }
+.story-continuity-review li { margin-block: 12px; }
+.story-continuity-review ul { padding-inline-start: 22px; }
+.story-continuity-review .continuity-group + details { border-block-start: 1px solid var(--border); }
+.story-continuity-review .badge { white-space: normal; }
+.story-context, .story-history { margin-block-start: 20px; }
+.story-context p, .story-context h3 { overflow-wrap: anywhere; }
+.story-history > details { border-block-start: 1px solid var(--border); }
+@media(max-width:650px) {
+  .story-demo-note { padding: 16px; }
+  .story-change > summary { align-items: flex-start; flex-direction: column; gap: 0; padding: 12px; }
+  .story-comparison { grid-template-columns: minmax(0,1fr); }
+  .story-comparison > section { padding: 14px; }
+  .story-comparison > section + section { border-inline-start: 0; border-block-start: 1px solid var(--border); }
+  .story-approval { padding: 14px; }
+  .story-approval-actions { flex-direction: column; }
+  .story-approval-actions .button { width: 100%; }
+  .story-review > .section-heading .button { min-height: 44px; }
+}

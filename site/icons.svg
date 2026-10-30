@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#442e66"/><stop offset="1" stop-color="#191320"/></linearGradient>
+    <linearGradient id="film" x2="1" y2="1"><stop stop-color="#b69aff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="20" y="20" width="472" height="472" rx="96" fill="none" stroke="#8b5cf6" stroke-opacity=".25" stroke-width="2"/>
+  <path d="M355 145a149 149 0 1 0 0 222" fill="none" stroke="url(#film)" stroke-width="49" stroke-linecap="round"/>
+  <g fill="#21172f">
+    <rect x="226" y="91" width="29" height="16" rx="5" transform="rotate(-6 240 99)"/>
+    <rect x="152" y="116" width="29" height="16" rx="5" transform="rotate(-38 166 124)"/>
+    <rect x="107" y="174" width="29" height="16" rx="5" transform="rotate(-64 121 182)"/>
+    <rect x="92" y="247" width="29" height="16" rx="5" transform="rotate(-90 106 255)"/>
+    <rect x="109" y="320" width="29" height="16" rx="5" transform="rotate(-116 123 328)"/>
+    <rect x="155" y="378" width="29" height="16" rx="5" transform="rotate(-144 169 386)"/>
+    <rect x="226" y="403" width="29" height="16" rx="5" transform="rotate(-174 240 411)"/>
+  </g>
+  <path d="M241 200c0-8 9-13 16-9l88 54c8 5 8 17 0 22l-88 54c-7 4-16-1-16-9z" fill="#e5b95c"/>
+  <path d="m382 99 8 22 22 8-22 8-8 22-8-22-22-8 22-8z" fill="#e5b95c"/>
+</svg>
